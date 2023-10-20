@@ -21,9 +21,9 @@ const Contaienr = () => {
   const [items, setItems] = useState<{
     [key: string]: string[];
   }>({
-    container1: ["A", "B", "C"],
-    container2: ["D", "E", "F"],
-    container3: ["G", "H", "I"],
+    container1: ["企業A", "企業B", "企業C"],
+    container2: ["企業D", "企業E", "企業F"],
+    container3: ["企業G", "企業H", "企業I"],
     container4: [],
   });
 

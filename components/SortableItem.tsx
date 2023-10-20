@@ -2,6 +2,7 @@ import { useSortable } from "@dnd-kit/sortable";
 import { CSS } from "@dnd-kit/utilities";
 import { UniqueIdentifier } from "@dnd-kit/core";
 import Item from "./Item";
+import Link from "next/link";
 
 const SortableItem = ({ id }: { id: UniqueIdentifier }) => {
   const { attributes, listeners, setNodeRef, transform, transition } =
