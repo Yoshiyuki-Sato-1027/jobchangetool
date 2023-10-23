@@ -170,16 +170,16 @@ const Contaienr = () => {
         <SortableContainer
           id="container1"
           items={items.container1}
-          label="企業ボール"
+          label="現在選考中"
         />
         <SortableContainer
           id="container2"
-          label="自分ボール"
+          label="やること"
           items={items.container2}
         />
         <SortableContainer
           id="container3"
-          label="これから受ける企業"
+          label="日程確定"
           items={items.container3}
         />
         <SortableContainer
