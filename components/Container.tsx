@@ -166,7 +166,6 @@ const Contaienr = () => {
         onDragOver={handleDragOver}
         onDragEnd={handleDragEnd}
       >
-        {/* SortableContainer */}
         <SortableContainer
           id="container1"
           items={items.container1}
